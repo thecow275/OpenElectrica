@@ -1,0 +1,6 @@
+{
+    "parent":"electrica:item/standard_item",
+    "textures": {
+        "layer0":"electrica:items/CopperBoots"
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "electrica",
+  "name": "Thecow275's Electrica",
+  "description": "Thecow275's Electrica is a Replacement For The Ever So Popular GregTech",
+  "version": "Alpha 0.0.9e",
+  "mcversion": "${mcversion}",
+  "url": "http://minecraft.curseforge.com/projects/electrica",
+  "updateUrl": "",
+  "authorList": ["thecow275 (Furry_Fox_Male)"],
+  "credits": "Thecow275(Furry_Fox_Male) for Code and Textures",
+  "logoFile": "/gfx/thecow275/logo.png",
+  "screenshots": [],
+  "dependencies": ["mod_MinecraftForge"]
+}
+]

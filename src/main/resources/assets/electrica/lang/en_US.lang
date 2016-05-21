@@ -1,0 +1,15 @@
+< en_US.lang - English localization file for the mod Thecow275's Electrica >
+item.ingotCopper.name=Copper Ingot
+tile.oreCopper.name=Copper Ore
+item.pickaxeCopper.name=Copper Pickaxe
+item.axeCopper.name=Copper Axe
+item.ingotTin.name=Tin Ingot
+tile.oreTin.name=Tin Ore
+tile.blockCopper.name=Copper Block
+item.chestplateCopper.name=Copper Chestplate
+item.helmetCopper.name=Copper Helmet
+item.ingotBronze.name=Bronze Ingot
+tile.blockTin.name=Tin Block
+tile.blockBronze.name=Bronze Block
+item.leggingsCopper.name=Copper Leggings
+item.bootsCopper.name=Copper Boots
