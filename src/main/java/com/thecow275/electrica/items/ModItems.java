@@ -1,5 +1,7 @@
 package com.thecow275.electrica.items;
 
+import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor;
@@ -22,7 +24,7 @@ public final class ModItems {
 	public static ToolMaterial CopperShovel = EnumHelper.addToolMaterial("CopperShovel", 2, 500, 6.0F, 2.0F, 14);
 	public static ToolMaterial CopperAxe = EnumHelper.addToolMaterial("CopperAxe", 2, 500, 6.0F, 2.0F, 14);
 	public static ToolMaterial CopperHoe = EnumHelper.addToolMaterial("CopperHoe", 0, 500, 6.0F, 2.0F, 14);
-	public static ItemArmor.ArmorMaterial CopperArmor = EnumHelper.addArmorMaterial("CopperArmor", "electrica:copperarmor", 16, new int[] {3, 8, 6, 3}, 30);
+	public static ItemArmor.ArmorMaterial CopperArmor = EnumHelper.addArmorMaterial("CopperArmor", "electrica:copperarmor", 16, new int[] {3, 8, 6, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON);
 	
 	public static void createItems(){
 		GameRegistry.registerItem(ingotTin = new BasicItem("ingotTin"), "ingotTin");
@@ -30,9 +32,9 @@ public final class ModItems {
         GameRegistry.registerItem(ingotBronze = new BasicItem("ingotBronze"), "ingotBronze");
 		GameRegistry.registerItem(pickaxeCopper = new PickaxeMod("pickaxeCopper", CopperPickaxe), "pickaxeCopper");
 		GameRegistry.registerItem(axeCopper = new AxeMod("axeCopper", CopperAxe), "axeCopper");
-		GameRegistry.registerItem(helmetCopper = new ItemModArmor("helmetCopper", CopperArmor, 1, 0), "helmetCopper");
-	    GameRegistry.registerItem(chestplateCopper = new ItemModArmor("chestplateCopper", CopperArmor, 1, 1), "chestplateCopper");
-        GameRegistry.registerItem(leggingsCopper = new ItemModArmor("leggingsCopper", CopperArmor, 2, 2), "leggingsCopper");
-        GameRegistry.registerItem(bootsCopper = new ItemModArmor("bootsCopper", CopperArmor, 1, 3), "bootsCopper");
+		GameRegistry.registerItem(helmetCopper = new ItemModArmor("helmetCopper", CopperArmor, 1, EntityEquipmentSlot.HEAD), "helmetCopper");
+	    GameRegistry.registerItem(chestplateCopper = new ItemModArmor("chestplateCopper", CopperArmor, 1, EntityEquipmentSlot.CHEST), "chestplateCopper");
+        GameRegistry.registerItem(leggingsCopper = new ItemModArmor("leggingsCopper", CopperArmor, 2, EntityEquipmentSlot.LEGS), "leggingsCopper");
+        GameRegistry.registerItem(bootsCopper = new ItemModArmor("bootsCopper", CopperArmor, 1, EntityEquipmentSlot.FEET), "bootsCopper");
     }
 }
