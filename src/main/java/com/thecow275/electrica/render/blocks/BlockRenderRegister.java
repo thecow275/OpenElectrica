@@ -4,7 +4,7 @@ import com.thecow275.electrica.blocks.ModBlocks;
 import com.thecow275.electrica.Main;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 
 public final class BlockRenderRegister {

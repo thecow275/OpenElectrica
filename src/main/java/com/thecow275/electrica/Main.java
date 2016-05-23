@@ -12,7 +12,7 @@ public class Main {
 
 	public static final String MODID = "electrica";
 	public static final String MODNAME = "thecow275's Electrica";
-	public static final String VERSION = "Alpha 0.0.9e";
+	public static final String VERSION = "Alpha 0.0.9f";
 	@SidedProxy(clientSide="com.thecow275.electrica.ClientProxy",
 			serverSide="com.thecow275.electrica.ServerProxy")
 	public static CommonProxy proxy;

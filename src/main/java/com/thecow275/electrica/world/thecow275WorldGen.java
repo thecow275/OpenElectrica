@@ -4,9 +4,9 @@ import java.util.Random;
 
 import com.thecow275.electrica.blocks.ModBlocks;
 
-import net.minecraft.block.state.pattern.BlockHelper;
+import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Blocks;
-import net.minecraft.util.BlockPos;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
@@ -25,13 +25,13 @@ public class thecow275WorldGen implements IWorldGenerator {
 	public thecow275WorldGen() {
 
 		this.gen_copper_ore = new WorldGenMinable(ModBlocks.oreCopper.getDefaultState(), 8);
-		this.gen_cobblestone = new WorldGenMinable(Blocks.cobblestone.getDefaultState(), 6, BlockHelper.forBlock(ModBlocks.oreTin));
+		this.gen_cobblestone = new WorldGenMinable(Blocks.cobblestone.getDefaultState(), 6, BlockMatcher.forBlock(ModBlocks.oreTin));
 		this.gen_tin_ore = new WorldGenSingleMinable(ModBlocks.oreTin.getDefaultState());
 	}
 
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
-		switch (world.provider.getDimensionId()) {
+		switch (world.provider.getDimension()) {
 		case 0: // Overworld
 			this.runGenerator(this.gen_copper_ore, world, random, chunkX, chunkZ, 20, 0, 64);
 			this.runGenerator(this.gen_tin_ore, world, random, chunkX, chunkZ, 20, 0, 64);
