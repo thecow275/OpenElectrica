@@ -15,6 +15,7 @@ public final class BlockRenderRegister {
 			reg(ModBlocks.blockCopper);
 			reg(ModBlocks.blockBronze);
 			reg(ModBlocks.blockTin);
+			reg(ModBlocks.reinforcedGlassBronze);
 		}
 		public static void reg(Block block){
 			Minecraft.getMinecraft().getRenderItem().getItemModelMesher()

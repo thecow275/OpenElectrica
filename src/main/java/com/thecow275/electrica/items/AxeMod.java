@@ -1,7 +1,7 @@
 package com.thecow275.electrica.items;
-import net.minecraft.item.ItemAxe;
+		import net.minecraft.item.ItemAxe;
 
-public class AxeMod extends ItemAxe {
+public class AxeMod extends AxeFix {
 
 	public AxeMod(String unlocalizedName, ToolMaterial material) {
 		super(material);
