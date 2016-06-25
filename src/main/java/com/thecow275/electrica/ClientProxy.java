@@ -2,7 +2,6 @@ package com.thecow275.electrica;
 import com.thecow275.electrica.render.blocks.BlockRenderRegister;
 import com.thecow275.electrica.render.items.ItemRenderRegister;
 
-import net.minecraft.util.IChatComponent;
 import	net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import	net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import	net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

@@ -10,6 +10,7 @@ public final class ModBlocks {
 	public static Block blockCopper;
     public static Block blockTin;
     public static Block blockBronze;
+    public static Block reinforcedGlassBronze;
 	
 	public static void createBlocks(){
 	GameRegistry.registerBlock(oreCopper = new BasicBlock("oreCopper").setLightLevel(0.0f), "oreCopper");
@@ -17,5 +18,6 @@ public final class ModBlocks {
 	GameRegistry.registerBlock(blockCopper = new BasicBlock("blockCopper").setLightLevel(0.0f), "blockCopper");
         GameRegistry.registerBlock(blockTin = new BasicBlock("blockTin"), "blockTin");
 	GameRegistry.registerBlock(blockBronze = new BasicBlock("blockBronze"), "blockBronze");
+		GameRegistry.registerBlock(reinforcedGlassBronze = new SeeTroughBlock("reinforcedGlassBronze"), "reinforcedGlassBronze");
     }
 }

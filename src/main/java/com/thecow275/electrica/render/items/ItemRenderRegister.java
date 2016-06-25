@@ -4,7 +4,7 @@ import com.thecow275.electrica.Main;
 import com.thecow275.electrica.items.ModItems;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 
 public class ItemRenderRegister {

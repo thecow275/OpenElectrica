@@ -28,17 +28,17 @@ public final class ModCrafting {
 			"#  ",
 			" # ",
 			"  #",
-			'#', Items.iron_ingot);
+			'#', Items.IRON_INGOT);
         GameRegistry.addRecipe(new ItemStack(ModItems.pickaxeCopper),
 			"aaa",
 			" b ",
 			" b ",
-			'a', ModItems.ingotCopper, 'b', Items.stick);
+			'a', ModItems.ingotCopper, 'b', Items.STICK);
         GameRegistry.addRecipe(new ItemStack(ModItems.axeCopper),
 			"aa ",
 			"ab ",
 			" b ",
-			'a', ModItems.ingotCopper, 'b', Items.stick);
+			'a', ModItems.ingotCopper, 'b', Items.STICK);
         GameRegistry.addRecipe(new ItemStack(ModBlocks.blockCopper),
 			"ddd",
 			"ddd",
