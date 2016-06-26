@@ -2,13 +2,13 @@
 {
   "modid": "electrica",
   "name": "Thecow275's Electrica",
-  "description": "Thecow275's Electrica is a Replacement For The Ever So Popular GregTech",
-  "version": "Alpha 0.0.9e",
+  "description": "Thecow275's Electrica is a Alpha Phase Standalone Expansion To The TechReborn Mod",
+  "version": "Alpha 0.0.1X",
   "mcversion": "${mcversion}",
   "url": "http://minecraft.curseforge.com/projects/electrica",
   "updateUrl": "",
   "authorList": ["thecow275 (Furry_Fox_Male)"],
-  "credits": "Thecow275(Furry_Fox_Male) for Code and Textures",
+  "credits": "Thecow275(Furry_Fox_Male) for Code and Textures. §4modmuss50 §rfor the 1.9.0 update patch",
   "logoFile": "/gfx/thecow275/logo.png",
   "screenshots": [],
   "dependencies": ["mod_MinecraftForge"]

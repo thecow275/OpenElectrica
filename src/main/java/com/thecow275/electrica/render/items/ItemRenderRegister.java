@@ -19,6 +19,8 @@ public class ItemRenderRegister {
 		reg(ModItems.chestplateCopper);
         reg(ModItems.bootsCopper);
         reg(ModItems.leggingsCopper);
+		reg(ModItems.hammerBronze);
+		reg(ModItems.hoeCopper);
 	}
 	public static String modid = Main.MODID;
 	public static void reg(Item item) {

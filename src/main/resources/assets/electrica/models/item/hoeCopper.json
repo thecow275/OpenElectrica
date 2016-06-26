@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "electrica:items/CopperAxe"
+        "layer0": "electrica:items/CopperHoe"
     },
     "display": {
         "thirdperson_righthand": {
