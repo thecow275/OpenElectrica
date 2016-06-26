@@ -1,8 +1,14 @@
-"1.9.4: {
-    "Alpha 0.0.10b": "This is the changelog for Alpha 0.0.10a for MC 1.9.4 of my mod!\nNew blocks, items, and more.",
-    "Alpha 0.0.10c": "This is the changelog for Alpha 0.0.10b for MC 1.9.4 of my mod!\nTons of new bugfixes!"
-  },
-"1.10: {
-    "Alpha 0.0.10c": "This is the changelog for Alpha 0.0.10c for MC 1.10 of my mod!\nNew blocks, items, and more.",
-    "Alpha 0.0.10a": "This is the changelog for Alpha 0.0.10d for MC 1.10 of my mod!\nTons of new bugfixes!"
+{
+  "homepage": "http://minecraft.curseforge.com/projects/electrica/",
+  "promos": {
+    "1.10-latest": "Alpha 0.0.10d",
+    "1.8.9-latest": "NONE",
+    "1.8.9-recommended": "NONE",
+    "1.9-latest": "Alpha 0.0.10a",
+    "1.9-recommended": "Alpha 0.0.10a",
+    "1.9.4-latest": "Alpha 0.0.10c",
+    "1.9.4-recommended": "Alpha 0.0.10d",
+    "latest": "Alpha 0.0.10c",
+    "recommended": "Alpha 0.0.10c"
   }
+}
