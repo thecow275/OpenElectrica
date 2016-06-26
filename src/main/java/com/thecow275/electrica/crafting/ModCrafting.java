@@ -2,6 +2,7 @@ package com.thecow275.electrica.crafting;
 import com.thecow275.electrica.blocks.ModBlocks;
 import com.thecow275.electrica.items.ModItems;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -45,9 +46,9 @@ public final class ModCrafting {
 			"ddd",
 			'd', ModItems.ingotCopper);
         GameRegistry.addRecipe(new ItemStack(ModItems.ingotBronze,4),
-                "dd ",
-                "ad ",
-                "   ",
+                "dd",
+                "ad",
+
                 'd', ModItems.ingotCopper, 'a', ModItems.ingotTin);
         GameRegistry.addRecipe(new ItemStack(ModItems.helmetCopper),
                 "ddd",
@@ -69,9 +70,19 @@ public final class ModCrafting {
 				"d d",
 				"d d",
 				'd', ModItems.ingotCopper);
-	
+		GameRegistry.addRecipe(new ItemStack(Items.SADDLE),
+				"aaa",
+		        "ada",
+		        "isi",
+		        'd', Blocks.DIAMOND_BLOCK, 'a', Items.LEATHER, 'i', Items.IRON_INGOT, 's', Items.EMERALD);
+	    GameRegistry.addRecipe(new ItemStack(ModBlocks.BronzeEnrichedSand),
+                "aba",
+                "bab",
+                "aba",
+                'a', Blocks.SAND, 'b', ModItems.ingotBronze);
 	// smelting recipe for making copper ingots out of copper ore
 	GameRegistry.addSmelting(ModBlocks.oreCopper, new ItemStack(ModItems.ingotCopper), 1.0f);
 	GameRegistry.addSmelting(ModBlocks.oreTin, new ItemStack(ModItems.ingotTin), 1.0f);
+    GameRegistry.addSmelting(ModBlocks.BronzeEnrichedSand, new ItemStack(ModBlocks.reinforcedGlassBronze), 2.0f);
 	}
 	}
