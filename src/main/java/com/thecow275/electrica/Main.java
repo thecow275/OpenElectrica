@@ -7,12 +7,12 @@ import	net.minecraftforge.fml.common.SidedProxy;
 import	net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import	net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import	net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-@Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
+@Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION, updateJSON = "https://raw.githubusercontent.com/thecow275/OpenElectrica/master/update.json")
 public class Main {
 
 	public static final String MODID = "electrica";
 	public static final String MODNAME = "thecow275's Electrica";
-	public static final String VERSION = "Alpha 0.0.9f";
+	public static final String VERSION = "Alpha 0.0.10b";
 	@SidedProxy(clientSide="com.thecow275.electrica.ClientProxy",
 			serverSide="com.thecow275.electrica.ServerProxy")
 	public static CommonProxy proxy;
