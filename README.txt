@@ -28,7 +28,7 @@ SOFTWARE.
 
 
 
-Custom Render is based on https://github.com/McJty/TutorialV3/tree/main/src/main/java/com/example/tutorialv3
+Custom Render is based on code from the following example mod https://github.com/McJty/TutorialV3/tree/main/src/main/java/com/example/tutorialv3
 
 
 which is under MIT License
