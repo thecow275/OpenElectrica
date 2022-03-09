@@ -1,13 +1,11 @@
 package com.thecow275.electrica.items;
+import com.thecow275.electrica.electrica;
+import com.thecow275.electrica.init.ItemInit;
+import net.minecraft.world.item.Item;
+import net.minecraftforge.registries.RegistryObject;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+public class BasicItem extends ItemInit {
 
-public class BasicItem extends Item{
-
-	public BasicItem(String unlocalizedName){
-		super();
-		this.setUnlocalizedName(unlocalizedName);
-		this.setCreativeTab(CreativeTabs.MATERIALS);
-	}
+    public static final RegistryObject<Item> gear_iron = register("gear_iron",
+            () -> new Item(new Item.Properties().tab(electrica.elec_tab)));
 }
