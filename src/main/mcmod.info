@@ -7,8 +7,8 @@
   "mcversion": "${mcversion}",
   "url": "http://minecraft.curseforge.com/projects/electrica",
   "updateUrl": "http://minecraft.curseforge.com/projects/electrica/files",
-  "authorList": ["thecow275 (Furry_Fox_Male)"],
-  "credits": "Thecow275(Furry_Fox_Male) for Code and Textures. §4modmuss50 §rfor the 1.9.0 update patch",
+  "authorList": ["thecow275"],
+  "credits": "Thecow275 for Code and Textures. §4modmuss50 §rfor the 1.9.0 update patch",
   "logoFile": "/gfx/thecow275/logo.png",
   "screenshots": [],
   "dependencies": ["mod_MinecraftForge"]
