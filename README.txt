@@ -1,5 +1,5 @@
 
-thecow275's Electrica Source Code
+thecow275's Electrica Source Code for 1.18.1
 
 licensed under MIT License
 
